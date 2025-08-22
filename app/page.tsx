@@ -242,15 +242,15 @@ export default function CloudDropsLanding() {
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="h-2 w-2 rounded-full bg-sky-600"></div>
-                  Printable art & recipes
+                  E-books
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="h-2 w-2 rounded-full bg-sky-600"></div>
-                  Puzzles & mini e-books
+                  Recipe or Guided Challenge
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="h-2 w-2 rounded-full bg-sky-600"></div>
-                  Guided challenges
+                  Audio/Music file
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="h-2 w-2 rounded-full bg-sky-600"></div>
