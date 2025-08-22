@@ -1,13 +1,12 @@
 "use client"
 
-import React from "react";
+import React, { MouseEvent as ME } from "react";
 import {
   Cloud,
   Gift,
   Zap,
   Sparkles,
   ShieldCheck,
-  Mail,
   Lock,
   Puzzle,
   BookOpen,
@@ -67,7 +66,7 @@ export default function CloudDropsLanding() {
     },
   ];
 
-  const handleSmoothScroll = (e, targetId) => {
+  const handleSmoothScroll = (e: any, targetId: string) => {
     e.preventDefault();
     const target = document.getElementById(targetId);
     if (target) {
