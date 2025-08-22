@@ -101,17 +101,6 @@ export default function CloudDropsLanding() {
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-slate-600 md:text-lg">
             Each month, open a themed bundle of printable art, recipes, puzzles, e‑books, and guided challenges. Zero shipping. Infinite delight.
           </p>
-          <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <button className="rounded-2xl px-6 py-3 bg-slate-900 text-white font-medium hover:bg-slate-800 transition-colors">
-              Start your 7‑day preview
-            </button>
-            <button
-              onClick={(e) => handleSmoothScroll(e, 'themes')}
-              className="rounded-2xl px-6 py-3 border border-slate-300 bg-white hover:bg-slate-50 font-medium transition-colors"
-            >
-              See a sample box
-            </button>
-          </div>
           <div className="mt-5 flex items-center justify-center gap-3 text-sm text-slate-500">
             <div className="flex items-center gap-1"><Lock className="h-4 w-4" /> Cancel anytime</div>
             <div className="flex items-center gap-1"><Cloud className="h-4 w-4" /> No shipping</div>
